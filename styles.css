@@ -48,6 +48,23 @@ a:hover {
 	color: #fc1e0a;
 }
 
+#tacocat {
+	width:400px;
+	border: 10px solid #f904b0;
+}
+
+#invertocat {
+	height: 125px;
+}
+
+#yt-logo {
+	height: 250px;
+}
+
+#scratch-logo {
+	height:250px;
+}
+
 /* Font Families */
 
 @font-face {
