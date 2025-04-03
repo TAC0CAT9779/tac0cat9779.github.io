@@ -1,0 +1,77 @@
+/* Regular Old Styles */
+
+/* Note: Main Colors: #ff9900, black, white 
+(and possibly a certain shade of yellow? 
+Maybe even a little bit of #b53b30?) */
+
+/* Another Note: My Favorite Color: #9d05fc
+                 My Favorite Color rgba(): rgba(157, 5, 252, 1)
+                 My Favorite Color rgba() less visible: rgba(157, 5, 251, 0.36) */
+
+h1, h2, h3, h4, h5, h6, p {
+	text-align: center;
+}
+
+h1 {
+	font-family: featherBold;
+	color: #ff9900;
+	font-size: 40px;
+}
+
+h2 {
+	color: #b53b30;
+	font-family: nunito;
+	font-size: 30px;
+}
+
+p {
+	color: black;
+	font-family: offside;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 17px;
+}
+
+#hi {
+	margin-top: 10px;
+}
+
+#top-right-logo {
+	width: 300px;
+}
+
+a {
+	color: #b53b30;
+}
+
+a:hover {
+	color: #fc1e0a;
+}
+
+/* Font Families */
+
+@font-face {
+	font-family: 'featherBold';
+	src: url(fonts/featherBold.woff2);
+}
+
+
+.nunito-<uniquifier> {
+  font-family: "nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.offside-regular {
+  font-family: "offside", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Anonymous */
+
+::selection {
+	background-color: rgba(157, 5, 251, 0.36);
+	color: black;
+}
