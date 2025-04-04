@@ -50,6 +50,7 @@ a:hover {
 }
 
 #tacocat {
+	border-radius: 7px;
 	width:400px;
 	border: 10px solid #f904b0;
 }
