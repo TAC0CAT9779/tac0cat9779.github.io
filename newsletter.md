@@ -2,7 +2,7 @@
 layout: page
 title: Newsletter
 ---
-I set up a newsletter since it turned out to be not as complicated as I expected.  
+I set up a newsletter since it turned out to be not as complicated as I had expected. I'll send out an email whenever I publish a new post.  
 You can sign up right here or go to [this link](https://buttondown.com/tac0cat9779).
 
 <iframe
